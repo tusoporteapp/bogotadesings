@@ -21,7 +21,7 @@
             "purpose": "any"
         }
     ],
-    "start_url": "/a/app",
+    "start_url": "/assets/js/index",
     "background_color": "#161616",
 	"font-color": "#ffffff",
     "theme_color": "#161616",
