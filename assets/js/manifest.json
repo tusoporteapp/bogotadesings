@@ -1,7 +1,7 @@
 {
     "short_name": "Bogota Designs",
     "name": "Bogota Designs",
-    "id": "/assets/js/index",
+    "id": "/assets/js/index.html",
     "icons": [
         {
             "src": "/assets/img/icon_180.png",
@@ -21,7 +21,7 @@
             "purpose": "any"
         }
     ],
-    "start_url": "/assets/js/index",
+    "start_url": "/assets/js/index.html",
     "background_color": "#161616",
 	"font-color": "#ffffff",
     "theme_color": "#161616",
