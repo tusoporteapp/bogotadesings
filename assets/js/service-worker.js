@@ -1,7 +1,7 @@
 "use strict";
 
 const version = "v2::";
-const offlineFundamentals = ["/a/", "/a/app"];
+const offlineFundamentals = ["/assets/js/", "/assets/js/index"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
