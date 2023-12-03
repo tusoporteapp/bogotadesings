@@ -22,8 +22,8 @@
         }
     ],
     "start_url": "/assets/js/index.html",
-    "background_color": "#D8A9A8",
-	"font-color": "#D8A9A8",
+    "background_color": "#FFFFFF",
+	"font-color": "#000000",
     "theme_color": "#FFFFFF",
     "display": "standalone",
     "orientation": "portrait"
