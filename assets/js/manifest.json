@@ -1,0 +1,30 @@
+{
+    "short_name": "Bogota Designs",
+    "name": "Bogota Designs",
+    "id": "/a/app",
+    "icons": [
+        {
+            "src": "/assets/img/icon_180.png",
+            "type": "image/png",
+            "sizes": "180x180",
+            "purpose": "any"
+        },{
+            "src": "/assets/img/icon_192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/img/icon_512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        }
+    ],
+    "start_url": "/a/app",
+    "background_color": "#161616",
+	"font-color": "#ffffff",
+    "theme_color": "#161616",
+    "display": "standalone",
+    "orientation":"portrait"
+}
