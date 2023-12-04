@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://www.bogotadesigns.com/assets/js/anime.html</loc>
+        <loc>https://www.bogotadesigns.com/anime/</loc>
     </url>
     <url>
-        <loc>https://www.bogotadesigns.com/assets/js/bandas.html</loc>
+        <loc>https://www.bogotadesigns.com/bandas/</loc>
     </url>
     <url>
-        <loc>https://www.bogotadesigns.com/assets/js/cart.html</loc>
+        <loc>https://www.bogotadesigns.com/cartoons/</loc>
     </url>
     <url>
-        <loc>https://www.bogotadesigns.com/assets/js/cartoons.html</loc>
+        <loc>https://www.bogotadesigns.com/disney/</loc>
     </url>
     <url>
-        <loc>https://www.bogotadesigns.com/assets/js/disney.html</loc>
+        <loc>https://www.bogotadesigns.com/manga/</loc>
     </url>
     <url>
-        <loc>https://www.bogotadesigns.com/assets/js/</loc>
+        <loc>https://www.bogotadesigns.com/nuevo/</loc>
     </url>
     <url>
-        <loc>https://www.bogotadesigns.com/assets/js/manga.html</loc>
+        <loc>https://www.bogotadesigns.com/populares/</loc>
     </url>
     <url>
-        <loc>https://www.bogotadesigns.com/assets/js/nuevo.html</loc>
-    </url>
-    <url>
-        <loc>https://www.bogotadesigns.com/assets/js/order.html</loc>
-    </url>
-    <url>
-        <loc>https://www.bogotadesigns.com/assets/js/populares.html</loc>
-    </url>
-    <url>
-        <loc>https://www.bogotadesigns.com/assets/js/product.html</loc>
+        <loc>https://www.bogotadesigns.com/cart.html</loc>
     </url>
     <url>
         <loc>https://www.bogotadesigns.com/</loc>
+    </url>
+    <url>
+        <loc>https://www.bogotadesigns.com/order.html</loc>
+    </url>
+    <url>
+        <loc>https://www.bogotadesigns.com/product.html</loc>
     </url>
 </urlset>
