@@ -32,129 +32,102 @@
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/img/512.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.reflowhq.com/v2/toolkit.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
     <link rel="stylesheet" href="assets/css/css/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/css/style.css">
+    <link rel="stylesheet" href="assets/css/-Filterable-Cards--Filterable-Cards.css">
     <link rel="stylesheet" href="assets/css/Page-Loader.css">
 <link rel="manifest" href="/assets/js/manifest.json">
 </head>
 
 <body>
     <main class="d-md-none">
-        <nav class="navbar sticky-top navbar-light custom-navbar" style="padding-right: 20px;padding-left: 20px;padding-top: 10px;background: #ffffff;">
+        <nav class="navbar fixed-top shadow-sm navbar-light custom-navbar" style="padding-right: 20px;padding-left: 20px;padding-top: 10px;background: #ffffff;border-bottom-width: 1px;border-bottom-color: var(--bs-primary-border-subtle);">
             <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/banners/logo.svg" width="34" height="29"></a>
-                <div><a href="#" style="padding-right: 20px;"><i class="icon ion-social-whatsapp-outline" style="color: rgb(0,0,0);font-size: 25px;"></i></a><a href="#" style="padding-right: 20px;"><i class="icon ion-android-share-alt" style="color: rgb(0,0,0);font-size: 25px;"></i></a><span data-reflow-type="view-cart" data-reflow-summary-type="sidebar" data-reflow-shoppingcart-url="cart.html"><i class="icon ion-ios-cart-outline" style="font-size: 25px;"></i></span></div>
+                <div><a href="#" style="padding-right: 20px;" data-bs-target="#modal-1" data-bs-toggle="modal"><i class="icon ion-images" style="color: rgb(0,0,0);font-size: 25px;"></i></a><a style="padding-right: 20px;" href="https://wa.me/message/M7USRLLEXPO5G1"><i class="icon ion-social-whatsapp-outline" style="color: rgb(0,0,0);font-size: 25px;"></i></a><a href="https://api.whatsapp.com/send?&amp;text=Hola%20como%20estas%2C%20te%20escribo%20para%20compartirte%20a%20Bogot%C3%A1%20Designs%2C%20es%20una%20tienda%20online%20de%20ventas%20de%20Ropa%20personalizada%2C%20tienen%20Busos%2C%20Pijamas%20y%20camisetas%2C%20los%20dise%C3%B1os%20son%20hermosos%20entra%20a%20su%20pagina%20web%20o%20en%20TikTok%20los%20puedes%20conseguir.%0A%0APagina%20web%3A%0Ahttps%3A%2F%2Fbogotadesigns.com%2F%0A%0ATikTok%3A%0Ahttps%3A%2F%2Fwww.tiktok.com%2F%40bogotadesigns" style="padding-right: 20px;"><i class="icon ion-android-share-alt" style="color: rgb(0,0,0);font-size: 25px;"></i></a></div>
             </div>
         </nav>
-        <section><a href="nuevo/index.html">
-                <div>
-                    <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" data-bs-interval="4100" id="carousel-1" style="margin-right: 0px;">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/banners/img_1.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_3.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_4.jpg" alt="Slide Image"></div>
-                        </div>
-                    </div>
-                </div>
-            </a></section>
-        <div class="container py-4 py-xl-5">
-            <div class="row g-0 row-cols-md-2 row-cols-xl-3">
-                <div class="col-6"><a href="anime/index.html">
-                        <div>
-                            <h6 style="font-family: Inconsolata, monospace;margin-right: 10px;margin-left: 10px;"><strong>Anime</strong></h6>
-                            <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" data-bs-interval="4000" id="carousel-3" style="margin-right: 10px;margin-left: 10px;">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/banners/img_1.jpg" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_3.jpg" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_4.jpg" alt="Slide Image"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-6"><a href="manga/index.html">
-                        <div>
-                            <h6 style="font-family: Inconsolata, monospace;margin-right: 10px;margin-left: 10px;"><strong>Manga</strong></h6>
-                            <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" data-bs-interval="4200" id="carousel-4" style="margin-right: 10px;margin-left: 10px;">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/banners/img_1.jpg" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_3.jpg" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_4.jpg" alt="Slide Image"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-12 col-sm-12"><a href="bandas/index.html">
-                        <div>
-                            <h6 style="font-family: Inconsolata, monospace;margin-right: 10px;margin-left: 10px;"><strong>Bandas</strong></h6>
-                            <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" data-bs-interval="4600" id="carousel-8" style="margin-right: 10px;margin-left: 10px;">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/banners/CUMPLEAÑOS.webp" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/FAMILIA.webp" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/MADRES.webp" alt="Slide Image"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-6"><a href="cartoons/index.htmln">
-                        <div>
-                            <h6 style="font-family: Inconsolata, monospace;margin-right: 10px;margin-left: 10px;"><strong>Cartoons</strong></h6>
-                            <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" data-bs-interval="4300" id="carousel-5" style="margin-right: 10px;margin-left: 10px;">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/banners/img_1.jpg" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_3.jpg" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_4.jpg" alt="Slide Image"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-6"><a href="disney/index.html">
-                        <div>
-                            <h6 style="font-family: Inconsolata, monospace;margin-right: 10px;margin-left: 10px;"><strong>Disney</strong></h6>
-                            <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" data-bs-interval="4400" id="carousel-6" style="margin-right: 10px;margin-left: 10px;">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/banners/img_1.jpg" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_3.jpg" alt="Slide Image"></div>
-                                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/img_4.jpg" alt="Slide Image"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </a></div>
+        <section class="py-5" style="margin-top: 30px;">
+            <div class="d-flex justify-content-center">
+                <div class="d-inline-flex align-items-center filtr-controls text-center lead text-uppercase mb-3"><span class="d-inline-block mx-3 py-1 position-relative" data-filter="1">BUZOS</span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="2">PIJAMAS</span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="3">CAMISETAS</span></div>
             </div>
-        </div>
-        <section><a href="populares.html">
-                <div>
-                    <h5 style="font-family: Inconsolata, monospace;margin-right: 20px;margin-left: 20px;"><strong>Populares</strong></h5>
-                    <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" data-bs-interval="4500" id="carousel-2" style="margin-right: 20px;margin-left: 20px;">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/banners/CUMPLEAÑOS.webp" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/PADRES.webp" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/PAREJA.webp" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/FAMILIA.webp" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/banners/MADRES.webp" alt="Slide Image"></div>
-                        </div>
+            <div class="container">
+                <div class="row filtr-container">
+                    <div class="col-6 col-sm-4 col-md-6 col-lg-4 filtr-item" data-category="1"><img class="img-fluid" src="assets/img/buzos/B9.webp" style="border-width: 1px;border-style: solid;border-bottom-style: none;border-top-left-radius: 6px;border-top-right-radius: 6px;">
+                        <div class="d-flex align-items-center"><button class="btn btn-primary" type="button" style="width: 100%;border-bottom-style: none;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-top-left-radius: 0px;" data-bs-target="#offcanvas-1" data-bs-toggle="offcanvas"><i class="icon ion-paintbrush"></i></button><button class="btn btn-primary" type="button" style="width: 100%;border-bottom-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-left-radius: 0px;" data-bs-target="#offcanvas-2" data-bs-toggle="offcanvas"><i class="icon ion-ios-cart"></i></button></div>
                     </div>
                 </div>
-            </a></section>
+            </div>
+        </section>
         <footer class="footer" role="contentinfo" style="padding-top: 10px;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
                         <p class="mb-1">© Copyright Bogotá Designs. Todos los derechos reservados</p>
-                        <div class="credits"><span> Diseñado por:&nbsp;</span><a>Miguel E Heredia</a></div>
+                        <div class="credits"><span> Diseñado por: <br>Yulieth Espinosa y Miguel Heredia<br><br></span></div>
                     </div>
-                    <div class="col-sm-12 text-center text-md-end social"><a href="#"><span class="bi bi-facebook"></span></a><a href="#"><span class="bi bi-instagram"></span></a><a href="#"><span class="bi bi-pinterest"></span></a><a href="#"><span class="bi bi-whatsapp"></span></a></div>
+                    <div class="col-sm-12 text-center text-md-end social"><a href="https://www.instagram.com/bogotadesigns"><span class="bi bi-instagram"></span></a><a href="https://www.pinterest.com/bogotadesigns"><span class="bi bi-pinterest"></span></a><a href="https://www.tiktok.com/@bogotadesigns"><span class="bi bi-tiktok"></span></a></div>
                 </div>
             </div>
         </footer>
     </main>
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" data-bs-scroll="true" id="offcanvas-1" style="height: 300px;">
+        <div class="offcanvas-header">
+            <div class="d-flex align-items-center">
+                <picture><img class="img-fluid" src="assets/img/180.png" width="45" height="45"></picture>
+                <h5 class="offcanvas-title">Bogota Desings</h5>
+            </div><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p class="font-monospace">Todas nuestro diseños son personalizable para que cada prenda sea única, puede cambiar de color la tela, y colocar algún nombre personalizado si así lo desea. Algunas modificaciones no se pueden hacer, preguntar si se puede.</p>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" data-bs-scroll="true" id="offcanvas-2" style="height: 300px;">
+        <div class="offcanvas-header">
+            <div class="d-flex align-items-center">
+                <picture><img class="img-fluid" src="assets/img/180.png" width="45" height="45"></picture>
+                <h5 class="offcanvas-title">Bogota Desings</h5>
+            </div><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Excelente quieres comprar esta prenda, solo presiona el botón que dice cotizar, y te llevara automáticamente a nuestro WhatsApp donde te vamos atender.</p><a class="btn btn-primary" role="button" href="https://wa.me/message/M7USRLLEXPO5G1">Comprar&nbsp;<i class="icon ion-ios-cart"></i></a>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font-monospace">Personaliza tu prenda</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-weight: bold;font-size: 12px;">Deseas que creemos un Buzo, Pijama o Camiseta personalizada, sube tu imagen y escríbenos tu idea, y la hacemos realidad.</p>
+                    <h2 class="font-monospace text-center mb-4">Completa el Formulario</h2>
+                    <form data-bss-recipient="b3fa42725c983deface1c375ab4153eb" data-bss-subject="PERSONALIZAR PRENDA" data-bss-loading-message="Cargando" data-bss-success-title="Completado" data-bss-success-message="Su mensaje ha sido enviado con exito." data-bss-error-title="Ups, erro" data-bss-error-message="Su mensaje no se puedo enviar" data-bss-filesize-message="Su archivo es muy grande recuerde debe ser menos que 10mb" data-bss-empty-form-message="Porque verifique que todo este lleno" data-bss-close="Cerrar" data-bss-redirect-url="https://wa.me/message/M7USRLLEXPO5G1">
+                        <div class="mb-3"><input class="form-control" type="text" id="name-2" name="Nombre" placeholder="Nombre" required=""></div>
+                        <div class="mb-3"><input class="form-control" type="email" id="email-2" name="Correo" placeholder="Correo" required=""></div>
+                        <div class="mb-3"><input class="form-control" type="tel" name="Numero WhatsApp" placeholder="Numero WhatsApp" required=""></div>
+                        <div class="mb-3"><select class="form-select" required="" name="Tipo de Prenda">
+                                <optgroup label="¿Elige el tipo de ropa que deseas?">
+                                    <option value="12" selected="">BUZO</option>
+                                    <option value="13">PIJAMA</option>
+                                    <option value="14">CAMISETA</option>
+                                </optgroup>
+                            </select></div>
+                        <div class="mb-3"><input class="form-control" type="file" multiple="" required="" accept="image/*" name="Imagenes" data-bs-theme="dark"><label class="form-label" style="color: var(--bs-form-invalid-color);">Añade tu imagen o las imagenes.</label></div>
+                        <div class="mb-3"><textarea class="form-control" id="message-2" name="Escribe tu idea" rows="6" placeholder="Escribe tu idea" required=""></textarea></div>
+                        <div><button class="btn btn-primary d-block w-100" type="submit">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdn.reflowhq.com/v2/toolkit.min.js" data-reflow-store="1639810170" data-reflow-locale="assets/js/es_Es.json" data-testmode="true"></script>
-    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/-Filterable-Cards--Filterable-Cards.js"></script>
     <script src="assets/js/Page-Loader-pageloader.js"></script>
 </body>
 
