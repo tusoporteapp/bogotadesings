@@ -34,6 +34,30 @@
     <link rel="stylesheet" href="assets/css/css/style.css">
     <link rel="stylesheet" href="assets/css/Page-Loader.css">
 <link rel="manifest" href="/assets/js/manifest.json">
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAg871w8r4k5bo-U_aUNBdAbS7HX_G2P00",
+    authDomain: "bogotadesigns-com.firebaseapp.com",
+    projectId: "bogotadesigns-com",
+    storageBucket: "bogotadesigns-com.appspot.com",
+    messagingSenderId: "626869203724",
+    appId: "1:626869203724:web:aa27f7a7d7275ed409cf29",
+    measurementId: "G-TMWG3HK1Q4"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </head>
 
 <body style="font-family: Inconsolata, monospace;">
@@ -105,7 +129,6 @@
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/Page-Loader-pageloader.js"></script>
-    <script src="assets/js/potestade.js"></script>
 </body>
 
 </html>
