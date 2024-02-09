@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/css/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/css/style.css">
     <link rel="stylesheet" href="assets/css/Page-Loader.css">
@@ -43,7 +44,7 @@
             </div>
         </nav>
         <section>
-            <div class="d-flex justify-content-center" style="margin-top: -11px;margin-bottom: -30px;"><button class="btn btn-primary" id="shareButton" style="width: 100%;margin: 20px;">Compartir Articulo&nbsp;<i class="icon ion-android-share"></i></button><script>
+            <div class="d-flex justify-content-center" style="margin-top: -11px;margin-bottom: -30px;"><button class="btn btn-primary" data-bss-hover-animate="flash" id="shareButton" style="width: 100%;margin: 20px;">Compartir Articulo&nbsp;<i class="icon ion-android-share"></i></button><script>
 document.getElementById("shareButton").addEventListener("click", function() {
     // Verificar si el navegador soporta la API de Web Share
     if (navigator.share) {
