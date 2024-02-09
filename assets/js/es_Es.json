@@ -40,7 +40,7 @@
   "close": "Cerrar",
   "error": "Error",
 
-  "cart.checkout": "Verificar",
+  "cart.checkout": "Siguiente",
   "cart.back_to_cart": "Volver al Carrito",
   "cart.update": "Actualización de la Compra",
   "cart.complete_order": "Orden Completa",
