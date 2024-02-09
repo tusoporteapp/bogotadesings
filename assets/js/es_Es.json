@@ -57,7 +57,7 @@
   "cart.shipping_not_selected": "Aún no seleccionado",
   "cart.select_country": "Seleccionar país",
   "cart.note_to_seller": "Escribe tu direccion (Solo disponible en Colombia)",
-  "cart.note_to_seller_placeholder": "Escribenos tu direccion correctamente por favor ejemplo: Av. Boyacá #80-94, Bogotá, si no esta segura de su direccion exacta acuda a Google Maps",
+  "cart.note_to_seller_placeholder": "Ejemplo: Av. Boyacá #80-94, Bogotá, si no esta segura de su direccion exacta acuda a Google Maps",
   "cart.tax_exemption_add": "Aplicar una exención de impuestos",
   "cart.tax_exemption_file": "Expediente de Exención de Impuestos",
   "cart.tax_exemption_file_prompt": "Adjunte un documento o foto de su exención de impuestos",
