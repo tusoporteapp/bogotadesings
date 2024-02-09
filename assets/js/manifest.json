@@ -1,0 +1,37 @@
+{
+  "short_name": "BDS",
+  "name": "Bogota Designs",
+  "id": "/assets/js/index.html",
+  "icons": [
+    {
+      "src": "/assets/img/180.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/img/192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/img/512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/assets/js/index.html",
+  "background_color": "#FFFFFF",
+  "font-color": "#000000",
+  "theme_color": "#FFFFFF",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "es",
+  "description": "¡Bienvenido a Bogotá Designs, tu destino definitivo para la moda original y personalizada! 🎉 Desde la vibrante capital colombiana, te traemos una amplia gama de buzos, camisas, camibuzos y pijamas, con diseños únicos inspirados en Anime, Manga, Disney, caricaturas, stickers ¡y mucho más! 🌟 Nuestro catálogo está lleno de prendas que reflejan tu estilo y pasión. ¡Haz tu pedido y lleva la magia de Bogotá Designs a cualquier rincón del país con nuestros envíos a todo el territorio nacional! 🚚",
+  "dir": "auto",
+  "categories": [
+    "shopping"
+  ]
+}
