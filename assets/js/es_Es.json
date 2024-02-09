@@ -49,7 +49,7 @@
   "cart.privacy_policy": "Política de Privacidad",
   "cart.refund_policy": "Politica de Reembolso",
   "cart.customer_details": "Detalles del Cliente",
-  "cart.subtotal_only": "El envío y los impuestos se calculan durante el pago.",
+  "cart.subtotal_only": "Los envios se realizan por InterRapidisimo o Picap (El cliente se hace responsable del costo del envio)",
   "cart.pickup_at_store": "Recoger en {store}",
   "cart.select_store": "Preciona aqui abajo",
   "cart.add_billing": "",
