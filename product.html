@@ -29,7 +29,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
-    <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/css/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/css/style.css">
@@ -37,10 +36,7 @@
 <link rel="manifest" href="/assets/js/manifest.json">
 </head>
 
-<body>
-    <div class="page-loader page-loader-show" style="background: rgb(255,255,255);">
-        <div class="d-flex justify-content-center align-items-center page-loader__spinner"><img class="img-fluid" data-aos="zoom-in" data-aos-once="true" src="assets/img/banners/logo.svg" width="48" height="48"></div>
-    </div>
+<body style="font-family: Inconsolata, monospace;">
     <main class="d-md-none">
         <nav class="navbar sticky-top shadow-sm navbar-light custom-navbar" style="background: #ffffff;border-bottom-width: 1px;border-bottom-color: var(--bs-primary-border-subtle);padding-left: 20px;padding-right: 20px;padding-top: 10px;">
             <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/banners/logo.svg" width="34" height="29"></a>
@@ -86,7 +82,13 @@ document.getElementById("shareButton").addEventListener("click", function() {
             </div>
         </footer>
         <nav class="navbar fixed-bottom navbar-light custom-navbar" style="background: #ffffff;padding-left: 20px;padding-right: 20px;padding-top: 10px;border-style: none;border-top: 1px solid rgb(72,72,72) ;border-bottom-width: 1px;border-bottom-color: var(--bs-primary-border-subtle);">
-            <div class="container"><a href="#" style="padding-right: 20px;" data-bs-target="#modal-1" data-bs-toggle="modal"><i class="icon ion-images" style="color: rgb(0,0,0);font-size: 25px;"></i></a><a style="padding-right: 20px;" href="https://wa.me/message/M7USRLLEXPO5G1"><i class="icon ion-social-whatsapp-outline" style="color: rgb(0,0,0);font-size: 25px;"></i></a><a href="https://api.whatsapp.com/send?&amp;text=Hola%20como%20estas%2C%20te%20escribo%20para%20compartirte%20a%20Bogot%C3%A1%20Designs%2C%20es%20una%20tienda%20online%20de%20ventas%20de%20Ropa%20personalizada%2C%20tienen%20Busos%2C%20Pijamas%20y%20camisetas%2C%20los%20dise%C3%B1os%20son%20hermosos%20entra%20a%20su%20pagina%20web%20o%20en%20TikTok%20los%20puedes%20conseguir.%0A%0APagina%20web%3A%0Ahttps%3A%2F%2Fbogotadesigns.com%2F%0A%0ATikTok%3A%0Ahttps%3A%2F%2Fwww.tiktok.com%2F%40bogotadesigns" style="padding-right: 20px;"><i class="icon ion-android-share-alt" style="color: rgb(0,0,0);font-size: 25px;"></i></a></div>
+            <div class="container"><a href="#" style="padding-right: 20px;" data-bs-target="#modal-1" data-bs-toggle="modal"><i class="icon ion-images" style="color: rgb(0,0,0);font-size: 25px;"></i></a><a style="padding-right: 20px;" href="https://wa.me/message/M7USRLLEXPO5G1"><i class="icon ion-social-whatsapp-outline" style="color: rgb(0,0,0);font-size: 25px;"></i></a><a style="padding-right: 20px;" data-bs-target="#offcanvas-1" data-bs-toggle="offcanvas"><i class="icon ion-android-favorite flash animated infinite" style="color: rgb(0,0,0);font-size: 25px;"></i></a><a href="https://api.whatsapp.com/send?&amp;text=Hola%20como%20estas%2C%20te%20escribo%20para%20compartirte%20a%20Bogot%C3%A1%20Designs%2C%20es%20una%20tienda%20online%20de%20ventas%20de%20Ropa%20personalizada%2C%20tienen%20Busos%2C%20Pijamas%20y%20camisetas%2C%20los%20dise%C3%B1os%20son%20hermosos%20entra%20a%20su%20pagina%20web%20o%20en%20TikTok%20los%20puedes%20conseguir.%0A%0APagina%20web%3A%0Ahttps%3A%2F%2Fbogotadesigns.com%2F%0A%0ATikTok%3A%0Ahttps%3A%2F%2Fwww.tiktok.com%2F%40bogotadesigns" style="padding-right: 20px;"><i class="icon ion-android-share-alt" style="color: rgb(0,0,0);font-size: 25px;"></i></a>
+                <div class="dropup"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" style="color: rgb(0,0,0);"><i class="icon ion-search" style="font-size: 25px;"></i></a>
+                    <div class="dropdown-menu" style="transform: translate(-195px) translateX(-90px) translateY(-22px) scale(1.03);padding-top: 0px;padding-bottom: 0px;width: 313px;">
+                        <div data-reflow-type="product-search" data-reflow-search-url="index.html" data-reflow-show-button="true"></div>
+                    </div>
+                </div>
+            </div>
         </nav>
     </main>
     <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
@@ -120,7 +122,6 @@ document.getElementById("shareButton").addEventListener("click", function() {
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.reflowhq.com/v2/toolkit.min.js" data-reflow-store="1639810170" data-reflow-locale="assets/js/es_Es.json"></script>
-    <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/Page-Loader-pageloader.js"></script>
