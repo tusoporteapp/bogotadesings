@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata&amp;display=swap">
     <link rel="stylesheet" href="../../assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="../../assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="../../assets/css/aos.min.css">
     <link rel="stylesheet" href="../../assets/css/animate.min.css">
     <link rel="stylesheet" href="../../assets/css/css/bootstrap-icons.css">
     <link rel="stylesheet" href="../../assets/css/css/style.css">
@@ -37,6 +38,9 @@
 </head>
 
 <body style="font-family: Inconsolata, monospace;">
+    <div class="page-loader page-loader-show" style="background: rgb(255,255,255);">
+        <div class="d-flex justify-content-center align-items-center page-loader__spinner"><img class="img-fluid" data-aos="zoom-in" data-aos-once="true" src="../../assets/img/banners/logo.svg" width="48" height="48"></div>
+    </div>
     <main class="d-md-none">
         <nav class="navbar sticky-top shadow-sm navbar-light custom-navbar" style="background: #ffffff;border-bottom-width: 1px;border-bottom-color: var(--bs-primary-border-subtle);padding-left: 20px;padding-right: 20px;padding-top: 10px;">
             <div class="container"><a class="navbar-brand" href="index.html"><img src="../../assets/img/banners/logo.svg" width="34" height="29"></a>
@@ -91,9 +95,18 @@
             </div>
         </div>
     </div>
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" data-bs-scroll="true" id="offcanvas-1" style="margin-left: 10px;margin-right: 10px;border-top-left-radius: 20px;border-top-right-radius: 20px;height: 400PX;margin-bottom: 20px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" style="font-family: Inconsolata, monospace;"><strong>LO NUEVO</strong></h5><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div data-reflow-type="product-list" data-reflow-perpage="5" data-reflow-order="date_desc" data-reflow-product-link="/product.html?product={id}" data-reflow-show="image,name" style="text-align: center;font-family: Inconsolata, monospace;"></div>
+        </div>
+    </div>
     <script src="../../assets/js/jquery.min.js"></script>
     <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.reflowhq.com/v2/toolkit.min.js" data-reflow-store="1639810170" data-reflow-locale="../../assets/js/es_Es.json"></script>
+    <script src="../../assets/js/aos.min.js"></script>
     <script src="../../assets/js/smart-forms.min.js"></script>
     <script src="../../assets/js/bs-init.js"></script>
     <script src="../../assets/js/Page-Loader-pageloader.js"></script>
