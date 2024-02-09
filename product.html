@@ -43,18 +43,7 @@
             </div>
         </nav>
         <section>
-            <div data-reflow-type="product" data-reflow-addtocart-text="Añadir al Carrito" data-reflow-shoppingcart-url="cart.html" style="margin: 20px;"></div><!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Compartir en Redes Sociales</title>
-</head>
-<body>
-
-<button id="shareButton">Compartir en redes sociales</button>
-
-<script>
+            <div class="d-flex justify-content-center" style="margin-top: -11px;margin-bottom: -30px;"><button class="btn btn-primary" id="shareButton" style="width: 100%;margin: 20px;">Compartir Articulo&nbsp;<i class="icon ion-android-share"></i></button><script>
 document.getElementById("shareButton").addEventListener("click", function() {
     // Verificar si el navegador soporta la API de Web Share
     if (navigator.share) {
@@ -77,11 +66,8 @@ document.getElementById("shareButton").addEventListener("click", function() {
         alert("Tu navegador no soporta la función de compartir.");
     }
 });
-</script>
-
-</body>
-</html>
-
+</script></div>
+            <div data-reflow-type="product" data-reflow-addtocart-text="Añadir al Carrito" data-reflow-shoppingcart-url="cart.html" style="margin: 20px;"></div>
         </section>
         <footer class="footer" role="contentinfo" style="padding-top: 10px;">
             <div class="container">
