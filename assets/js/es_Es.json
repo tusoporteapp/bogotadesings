@@ -56,7 +56,7 @@
   "cart.deliver_to_address": "Entregar a la dirección",
   "cart.shipping_not_selected": "Aún no seleccionado",
   "cart.select_country": "Seleccionar país",
-  "cart.note_to_seller": "Escribe un comentario al vendedor",
+  "cart.note_to_seller": "",
   "cart.note_to_seller_placeholder": "Si tienes alguna instrucción específica que quieras darle al vendedor, escríbela aquí.",
   "cart.tax_exemption_add": "Aplicar una exención de impuestos",
   "cart.tax_exemption_file": "Expediente de Exención de Impuestos",
