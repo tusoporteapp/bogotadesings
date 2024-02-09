@@ -57,7 +57,7 @@
   "cart.shipping_not_selected": "Aún no seleccionado",
   "cart.select_country": "Seleccionar país",
   "cart.note_to_seller": "",
-  "cart.note_to_seller_placeholder": "Si tienes alguna instrucción específica que quieras darle al vendedor, escríbela aquí.",
+  "cart.note_to_seller_placeholder": "",
   "cart.tax_exemption_add": "Aplicar una exención de impuestos",
   "cart.tax_exemption_file": "Expediente de Exención de Impuestos",
   "cart.tax_exemption_file_prompt": "Adjunte un documento o foto de su exención de impuestos",
