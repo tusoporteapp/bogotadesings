@@ -3,7 +3,7 @@
    const readyToast = new bootstrap.Toast(toastEl)
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker
-      .register("/assets/js/service-worker.min.js", { scope: "/index" })
+      .register("/assets/js/service-worker.min.js", { scope: "/index.html" })
       .then(() => readyToast.show());
   } else {
     console.log("CLIENT: service worker is not supported.");
