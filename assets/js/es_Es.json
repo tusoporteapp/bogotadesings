@@ -51,7 +51,7 @@
   "cart.customer_details": "Detalles del Cliente",
   "cart.subtotal_only": "Los envios se realizan por InterRapidisimo o Picap (El cliente se hace responsable del costo del envio)",
   "cart.pickup_at_store": "Recoger en {store}",
-  "cart.select_store": "Preciona aqui abajo",
+  "cart.select_store": "Seleccion la forma de entrega",
   "cart.add_billing": "",
   "cart.deliver_to_address": "Entregar a la dirección",
   "cart.shipping_not_selected": "Aún no seleccionado",
