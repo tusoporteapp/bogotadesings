@@ -17,6 +17,28 @@ document.addEventListener('DOMContentLoaded', function() {
 		hoverAnimationEl.addEventListener('mouseleave', function(e){ e.target.classList.remove('animated', e.target.dataset.bssHoverAnimate) });
 	});
 
+	var toastTriggers = document.querySelectorAll('[data-bs-toggle="toast"]');
+
+	for (let toastTrigger of toastTriggers) {
+		toastTrigger.addEventListener('click', function () {
+			var toastSelector = toastTrigger.getAttribute('data-bs-target');
+
+			if (!toastSelector) return;
+
+			try {
+				var toastEl = document.querySelector(toastSelector);
+
+				if (!toastEl) return;
+
+				var toast = new bootstrap.Toast(toastEl);
+				toast.show();
+			}
+			catch(e) {
+				console.error(e);
+			}
+		})
+	}
+
 	var products = document.querySelectorAll('[data-bss-dynamic-product]');
 
 	for (var product of products) {
